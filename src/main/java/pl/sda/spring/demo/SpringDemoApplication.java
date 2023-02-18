@@ -1,4 +1,4 @@
-package pl.sda.spring.demo.spring;
+package pl.sda.spring.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
