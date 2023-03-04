@@ -22,5 +22,5 @@ public class Student {
 
     private String imie;
     private String nazwisko;
-    private int wiek;
+    private Integer wiek;
 }
