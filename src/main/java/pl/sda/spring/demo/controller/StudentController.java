@@ -53,9 +53,9 @@ public class StudentController {
     // DELETE
     // http://localhost:8080/student?id=1
     @DeleteMapping()
-    public void deleteStudent(@RequestParam Long id) {
-        log.info("Ktos usunal studenta.");
-        studentService.delete(id);
+    public void deleteStudent(@RequestParam Long stId) {
+        log.info("Ktos usunal studenta." + stId);
+        studentService.delete(stId);
     }
 
     // CREATE
